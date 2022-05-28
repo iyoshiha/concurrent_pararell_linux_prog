@@ -1,3 +1,10 @@
+bike1
+bike2
+im child
+bike1
+bike2
+im parent
+awake
 #include <sys/types.h>
 #include <sys/wait.h>
 #include <unistd.h>
@@ -11,9 +18,10 @@ int main(){
     puts("bike2");
     if (id == 0) {
         puts("im child");
-        sleep(5);
     }
     else{
         puts("im parent");
+        sleep(5);
+        puts("awake");
     }
 }

@@ -1,3 +1,9 @@
+bike1
+bike2
+im parent
+bike1
+bike2
+im child
 #include <sys/types.h>
 #include <sys/wait.h>
 #include <unistd.h>
